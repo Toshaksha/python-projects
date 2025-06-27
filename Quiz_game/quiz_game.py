@@ -1,3 +1,10 @@
+print("Welcome to my Quiz Game!!\n")
+playing = input("Do you want to play the Game? ").lower()
+
+if playing != "yes":
+    quit()
+
+print("\nOkay, Let's Begin the Adventure!!!! ")
 question_list = {
     "Is 2 + 3 = 5?": "Yes",
     "Is the sun a planet?": "No",
@@ -17,3 +24,8 @@ for question in question_list:
     correct_answer = question_list[question].lower()
     if user_answer == correct_answer:
         total_score += 1
+        print("Correct Answer!!!!")
+    else:
+        print("Oops!!!")
+        print(f"Correct answer of this question is: {question_list[question]}")
+
