@@ -1,4 +1,4 @@
-# Make user guess a random number
+# generate a random number and track how many tries the user take to guess this number.
 import random
 
 print("Welcome to the Number Guessing Game.\n")
