@@ -1,3 +1,4 @@
+# Make user guess a random number
 import random
 
 print("Welcome to the Number Guessing Game.\n")
