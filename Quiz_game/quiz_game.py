@@ -29,3 +29,15 @@ for question in question_list:
         print("Oops!!!")
         print(f"Correct answer of this question is: {question_list[question]}")
 
+
+print(f"\nYour total score out of 10 is {total_score}")
+if total_score == 10:
+    print("🏆 Excellent! You're a quiz master!")
+elif total_score >= 7:
+    print("👍 Great job!")
+elif total_score >= 5:
+    print("🙂 Not bad, keep practicing!")
+else:
+    print("📘 Better luck next time!")
+
+print(f"Your Pass Percentage is: {(total_score/10) * 100}")
