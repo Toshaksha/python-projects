@@ -1,4 +1,3 @@
-# generate a random number and track how many tries the user take to guess this number.
 import random
 
 print("Welcome to the Number Guessing Game.\n")
@@ -17,13 +16,20 @@ else:
     quit()
 
 random_number = random.randrange(0, upper_range)
-print("\nLet's begin the game: ")
+print(f"\nNumber range is between 0 and {upper_range - 1}. Start guessing!\n")
 
 guess_count = 0
 user_guess = -1
 while user_guess != random_number:
-    user_guess = int(input(f"Guess a number between 0 and {upper_range - 1}: "))
-    guess_count += 1
+    try:
+        user_guess = int(input("Your guess: "))
+        guess_count += 1
 
-print("\nHurray you guessed it correctly.")
-print(f"You guessed it in {guess_count} {'try' if guess_count == 1 else 'tries'}.")
+        if user_guess < random_number:
+            print("Too low!")
+        elif user_guess > random_number:
+            print("Too high!")
+    except ValueError:
+        print("Please enter a valid integer.")
+
+print(f"\n🎉 Hurray! You guessed it in {guess_count} {'try' if guess_count == 1 else 'tries'}.\n")
