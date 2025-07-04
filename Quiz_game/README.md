@@ -4,6 +4,8 @@ A simple and fun command-line quiz game built using Python!
 Test your basic knowledge with 10 Yes/No questions and get instant feedback with your final score and pass percentage at the end.
 This is a learning-focused project.
 
+---
+
 ## 📌 Features
 
 - 10 easy Yes/No questions
@@ -12,10 +14,14 @@ This is a learning-focused project.
 - Correct answers shown for incorrect responses
 - Beginner-friendly and fully interactive
 
+---
+
 ## 🛠️ Technologies Used
 
 - Python 3.x
 - Standard libraries only (no external dependencies)
+
+---
 
 ## 🚀 How to Run
 
@@ -24,6 +30,33 @@ This is a learning-focused project.
    ```bash
    python quiz_game.py
 3. Follow the on-screen prompts to play.
+
+---
+
+## 📌 Sample Output
+```
+Welcome to my Quiz Game!!
+
+Do you want to play the Game? yes
+
+Okay, Let's Begin the Adventure!!!!
+
+Question is:- Is 2 + 3 = 5?
+Enter your answer( Yes or No): yes
+Correct Answer!!!!
+
+Question is:- Is the sun a planet?
+Enter your answer( Yes or No): no
+Correct Answer!!!!
+
+... (questions continue)
+
+Your total score out of 10 is 8
+👍 Great job!
+Your Pass Percentage is: 80.0
+```
+
+---
 
 ## 🎯 What I Learned
 
