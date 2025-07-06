@@ -19,3 +19,19 @@ medium_words = [
 hard_words = [
     "microscope", "astronaut", "dinosaur", "triangle", "elephant","volcano", "telescope", "backpack", "algorithm", "kangaroo"
 ]
+
+def levels():
+    while True:
+        print("What level you wanna play: Easy, Medium or Hard")
+        user_level = input("> ").strip().lower()
+        if user_level == "easy":
+            word = random.choice(easy_words)
+            return word
+        elif user_level == "medium":
+            word = random.choice(medium_words)
+            return word
+        elif user_level == "hard":
+            word = random.choice(hard_words)
+            return word
+        else:
+            print("Invalid level.")
