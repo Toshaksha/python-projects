@@ -35,3 +35,6 @@ def levels():
             return word
         else:
             print("Invalid level.")
+
+def no_of_letters(word):
+    print("Number of letters in the word is: ", len(word))
