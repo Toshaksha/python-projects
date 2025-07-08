@@ -37,7 +37,8 @@ def levels():
             print("Invalid level.")
 
 def no_of_letters(word):
-    print("Number of letters in the word is: ", len(word))
+    print("Number of letters in the word is: ",len(word))
+
 
 def game_logic():
     no_of_guesses = 0
@@ -54,8 +55,17 @@ def game_logic():
             print("Game quit. The word was:", word)
             break
 
+        if len(character) != 1 or not character.isalpha():
+            print("Please enter a single letter.")
+            continue
+
         no_of_guesses += 1
+
         if character in word:
+            if character in guess_list:
+                print("You already guessed that letter!")
+            else:
+                print("Good guess!")
             for index, item in enumerate(word):
                 if item == character:
                     guess_list[index] = character
@@ -67,3 +77,5 @@ def game_logic():
         if user_guess == word:
             print("Congratulations!!! You guessed the word correctly in", no_of_guesses, "guesses.")
             break
+
+game_logic()
