@@ -78,4 +78,4 @@ def game_logic():
             print("Congratulations!!! You guessed the word correctly in", no_of_guesses, "guesses.")
             break
 
-game_logic()
+game_logic() # calling the function
