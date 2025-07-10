@@ -18,6 +18,23 @@ Get ready for a ridiculous ride into the world of **completely made-up news**! T
 - Simple, readable Python code — great for beginners
 
 ---
+
+## ⚙️ How It Works
+
+- When the program starts, it prompts you to generate a fake news headline.  
+- You choose one of five genres.  
+- The program randomly selects a headline from that genre's pool and displays it.  
+- You can generate multiple headlines by repeating the process.
+
+---
+
+## 🛠️ Requirements
+
+- Python 3.x  
+- No external libraries needed
+
+---
+
 ## 🚀 How to Run
 
 1. Clone or download the repository  
@@ -25,7 +42,7 @@ Get ready for a ridiculous ride into the world of **completely made-up news**! T
 3. Run the script using Python:
 
    ```bash
-   python fake_news_generator.py
+   python fake_headline_generator.py
 
 ---
 
