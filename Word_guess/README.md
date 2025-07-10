@@ -89,4 +89,4 @@ Congratulations!!! You guessed the word correctly in 4 guesses.
 ---
 
 ## 🙌 Credits
-🧠 Crafted with curiosity and a sprinkle of Python magic by Toshaksha.
+📚 Made by Toshaksha, powered by Python — and occasionally saved by lucky guesses 😅.
