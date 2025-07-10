@@ -64,3 +64,8 @@ Your Pass Percentage is: 80.0
 - Handling user input and string methods
 - Basic control flow and loops
 - Simple scoring and conditional feedback
+
+---
+
+##  🙌 Credits
+Crafted with curiosity and a sprinkle of Python magic by Toshaksha.
