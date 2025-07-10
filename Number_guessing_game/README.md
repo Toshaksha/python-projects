@@ -21,12 +21,22 @@ A simple Python terminal-based number guessing game with multiple difficulty lev
 
 ---
 
+## ⚙️ How It Works
+
+- You choose a difficulty level that sets the number range.  
+- The program randomly picks a number within that range.  
+- You guess numbers and receive feedback if your guess is too high, too low, or correct.  
+- The game tracks how many guesses you take to find the number.  
+- After guessing correctly, you can choose to play again or exit.
+
+---
+
 ## 🚀 How to Run
 
 1. Clone or download the repository  
 2. Run the script using Python 3:  
    ```bash
-   python number_guessing_game.py
+   python number_guess_game.py
 3. Follow the on-screen prompts to play.
 
 ---
@@ -58,3 +68,8 @@ Do you want to play again? (yes/no): no
 - Handling user input and exceptions
 - Working with random numbers
 - Implementing game logic and loops
+
+---
+
+## 🙌 Credits
+Made with Python by Toshaksha — powered by a dash of guesswork!
