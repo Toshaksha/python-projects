@@ -43,7 +43,7 @@ Test your vocabulary and deduction skills by guessing hidden words based on the 
 1. Clone or download the repository  
 2. Run the script using Python 3:  
    ```bash
-   python word_guessing_game.py
+   python word_guess.py
 3. Follow the on-screen prompts to play
 
 ---
@@ -85,3 +85,8 @@ Congratulations!!! You guessed the word correctly in 4 guesses.
 - Working with string manipulation and lists
 - Implementing game logic with loops and conditionals
 - Using random choices for word selection
+
+---
+
+## 🙌 Credits
+🧠 Crafted with curiosity and a sprinkle of Python magic by Toshaksha.
