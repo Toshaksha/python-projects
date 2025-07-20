@@ -15,14 +15,14 @@ This repository contains a variety of small to medium-sized Python projects that
 
 ## 📁 Projects Included
 
-| Project Name                                                                 | Description                                      |
-|------------------------------------------------------------------------------|--------------------------------------------------|
-| [Fake Headline Generator](./Fake_Headline_Generator)                         | Generates realistic fake news headlines          |
-| [Number Guessing Game](./Number_guessing_game)                               | Classic number guessing game with input prompts |
-| [QR Code Generator](./QR_Code_Generator)                                     | Generates QR codes from input text               |
-| [Quiz Game](./Quiz_game)                                                     | Interactive quiz game with scoring               |
-| [Rock Paper Scissor](./Rock_Paper_Scissor)                                   | Classic Rock-Paper-Scissor game                  |
-| [Word Guess](./Word_guess)                                                   | Word guessing game similar to Hangman            |
+| Project Name                                         | Description                                      |
+|------------------------------------------------------|--------------------------------------------------|
+| [Fake Headline Generator](./fake_headline_generator) | Generates realistic fake news headlines          |
+| [Number Guessing Game](./number_guess_game)          | Classic number guessing game with input prompts |
+| [QR Code Generator](./qr_code_generator)             | Generates QR codes from input text               |
+| [Quiz Game](./quiz_game)                             | Interactive quiz game with scoring               |
+| [Rock Paper Scissor](./rock_paper_scissor_game)      | Classic Rock-Paper-Scissor game                  |
+| [Word Guess](./word_guess)                           | Word guessing game similar to Hangman            |
 
 ---
 
@@ -39,7 +39,7 @@ Each project is contained in its own folder with a dedicated `README.md` explain
 
 2. Navigate to a project folder:
     ```bash
-    cd python-projects/Number_guessing_game
+    cd python-projects/number_guess_game
     ```
 
 3. Follow the instructions in the project’s `README.md` to run the code.
