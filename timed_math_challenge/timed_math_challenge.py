@@ -1,10 +1,9 @@
 import random
 
-OPERATORS = ["+", "-", "*", "/"]
+OPERATORS = ["+", "-", "*"]
 MIN_OPERAND = 2
 MAX_OPERAND = 12
 TOTAL_PROBLEMS = 10
-
 
 def generate_problem():
     left = random.randint(MIN_OPERAND, MAX_OPERAND)
@@ -13,7 +12,8 @@ def generate_problem():
 
     expression = str(left) + " " + operator + " " + str(right)
     ans = eval(expression)
-    print(ans)
+    return expression, ans
 
-
-generate_problem()
+for _ in range(TOTAL_PROBLEMS):
+    expression, ans = generate_problem()
+    print(expression, "=", ans)  # Just printing to verify
