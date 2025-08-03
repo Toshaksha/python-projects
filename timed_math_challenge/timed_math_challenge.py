@@ -18,5 +18,8 @@ for i in range(TOTAL_PROBLEMS):
     expression, ans = generate_problem()
     while True:
         guess = input(f"Problem #{i+1}: {expression} = ")
-        if guess == str(ans):
-            break
+        try:
+            if int(guess) == ans:
+                break
+        except ValueError:
+            print("Please enter a valid number.")
