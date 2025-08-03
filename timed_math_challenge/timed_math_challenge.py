@@ -1,4 +1,5 @@
 import random
+import time
 
 OPERATORS = ["+", "-", "*"]
 MIN_OPERAND = 2
@@ -14,6 +15,10 @@ def generate_problem():
     ans = eval(expression)
     return expression, ans
 
+input("Press enter to start.")
+print("------------------------------------")
+start_time = time.time()
+
 for i in range(TOTAL_PROBLEMS):
     expression, ans = generate_problem()
     while True:
@@ -23,3 +28,8 @@ for i in range(TOTAL_PROBLEMS):
                 break
         except ValueError:
             print("Please enter a valid number.")
+
+end_time = time.time()
+total_time = end_time - start_time
+
+print(f"You finished the quiz in {total_time:.2f} seconds")
