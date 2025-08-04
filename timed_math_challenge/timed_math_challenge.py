@@ -18,18 +18,20 @@ def generate_problem():
 input("Press enter to start.")
 print("------------------------------------")
 start_time = time.time()
+attempts = 0
 
 for i in range(TOTAL_PROBLEMS):
     expression, ans = generate_problem()
     while True:
         guess = input(f"Problem #{i+1}: {expression} = ")
         try:
+            attempts += 1
             if int(guess) == ans:
                 break
         except ValueError:
-            print("Please enter a valid number.")
+            print("Enter a valid answer.")
 
 end_time = time.time()
 total_time = end_time - start_time
 
-print(f"You finished the quiz in {total_time:.2f} seconds")
+print(f"You finished the quiz in {total_time:.2f} seconds with {attempts} attempts.")
