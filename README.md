@@ -23,6 +23,7 @@ This repository contains a variety of small to medium-sized Python projects that
 | [Quiz Game](./quiz_game)                             | Interactive quiz game with scoring               |
 | [Rock Paper Scissor](./rock_paper_scissor_game)      | Classic Rock-Paper-Scissor game                  |
 | [Word Guess](./word_guess)                           | Word guessing game similar to Hangman            |
+| [Timed Math Challenge](./timed_math_challenge) | A fast-paced Python game with 10 random math problems. Test your speed and accuracy while practicing arithmetic in a fun way. |
 
 ---
 
