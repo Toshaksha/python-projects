@@ -24,6 +24,8 @@ This repository contains a variety of small to medium-sized Python projects that
 | [Rock Paper Scissor](./rock_paper_scissor_game)      | Classic Rock-Paper-Scissor game                  |
 | [Word Guess](./word_guess)                           | Word guessing game similar to Hangman            |
 | [Timed Math Challenge](./timed_math_challenge) | A fast-paced Python game with 10 random math problems. Test your speed and accuracy while practicing arithmetic in a fun way. |
+| [PIG Dice Roll Game](./pig_dice_game) | A fun, turn-based Python game for 2–4 players based on the classic *Pig* dice game. Great for practicing loops, conditionals, and input handling in a competitive setting. |
+
 
 ---
 
