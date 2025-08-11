@@ -15,16 +15,17 @@ This repository contains a variety of small to medium-sized Python projects that
 
 ## 📁 Projects Included
 
-| Project Name                                         | Description                                      |
-|------------------------------------------------------|--------------------------------------------------|
+| Project Name                           | Description                                      |
+|----------------------------------------|--------------------------------------------------|
 | [Fake Headline Generator](./fake_headline_generator) | Generates realistic fake news headlines          |
-| [Number Guessing Game](./number_guess_game)          | Classic number guessing game with input prompts |
-| [QR Code Generator](./qr_code_generator)             | Generates QR codes from input text               |
-| [Quiz Game](./quiz_game)                             | Interactive quiz game with scoring               |
-| [Rock Paper Scissor](./rock_paper_scissor_game)      | Classic Rock-Paper-Scissor game                  |
-| [Word Guess](./word_guess)                           | Word guessing game similar to Hangman            |
+| [Number Guessing Game](./number_guess_game) | Classic number guessing game with input prompts |
+| [QR Code Generator](./qr_code_generator) | Generates QR codes from input text               |
+| [Quiz Game](./quiz_game)               | Interactive quiz game with scoring               |
+| [Rock Paper Scissor](./rock_paper_scissor_game) | Classic Rock-Paper-Scissor game                  |
+| [Word Guess](./word_guess)             | Word guessing game similar to Hangman            |
 | [Timed Math Challenge](./timed_math_challenge) | A fast-paced Python game with 10 random math problems. Test your speed and accuracy while practicing arithmetic in a fun way. |
 | [PIG Dice Roll Game](./pig_dice_game) | A fun, turn-based Python game for 2–4 players based on the classic *Pig* dice game. Great for practicing loops, conditionals, and input handling in a competitive setting. |
+| [Password Manager](./password_manager) | A beginner-friendly Python CLI tool to securely store and encrypt passwords using the cryptography library (Fernet). Features master password protection, adding and viewing passwords, and clean input handling. |
 
 
 ---
