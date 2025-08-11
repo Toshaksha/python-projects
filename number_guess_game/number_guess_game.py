@@ -2,7 +2,7 @@ import random
 
 def welcome_screen():
     print("🎮 Welcome to the Number Guessing Game.\n")
-    response = input("Wanna begin the game!! ").strip().lower()
+    response = input("🎲 Ready to test your luck? Let's begin! (yes/no): ").strip().lower()
     return response in ("yes", "y","sure")
 
 
