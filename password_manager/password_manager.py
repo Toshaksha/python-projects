@@ -1,5 +1,10 @@
 PASSWORD = "password.txt"
+MASTER_PASSWORD = "pwd123"
 
+m_pwd_entered = input("Enter the master password: ")
+if m_pwd_entered != MASTER_PASSWORD:
+    print("Access Denied.")
+    quit()
 
 def add():
     a_name = input("Account Name: ")
