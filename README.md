@@ -13,19 +13,29 @@ This repository contains a variety of small to medium-sized Python projects that
 
 ---
 
+🚀 Built Alongside My Python Learning Notes
+
+These projects complement my Python learning journey.
+
+🧠 Want to dive into the concepts and notes behind the code?  
+📘 Check out my companion notes repository: [Notes Repository](https://github.com/Toshaksha/notes-repo)
+
+---
+
 ## 📁 Projects Included
 
-| Project Name                           | Description                                      |
-|----------------------------------------|--------------------------------------------------|
-| [Fake Headline Generator](./fake_headline_generator) | Generates realistic fake news headlines          |
-| [Number Guessing Game](./number_guess_game) | Classic number guessing game with input prompts |
-| [QR Code Generator](./qr_code_generator) | Generates QR codes from input text               |
-| [Quiz Game](./quiz_game)               | Interactive quiz game with scoring               |
-| [Rock Paper Scissor](./rock_paper_scissor_game) | Classic Rock-Paper-Scissor game                  |
-| [Word Guess](./word_guess)             | Word guessing game similar to Hangman            |
-| [Timed Math Challenge](./timed_math_challenge) | A fast-paced Python game with 10 random math problems. Test your speed and accuracy while practicing arithmetic in a fun way. |
-| [PIG Dice Roll Game](./pig_dice_game) | A fun, turn-based Python game for 2–4 players based on the classic *Pig* dice game. Great for practicing loops, conditionals, and input handling in a competitive setting. |
+| Project Name                           | Description                                                                                                                                                                                                       |
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Fake Headline Generator](./fake_headline_generator) | Generates realistic fake news headlines                                                                                                                                                                           |
+| [Number Guessing Game](./number_guess_game) | Classic number guessing game with input prompts                                                                                                                                                                   |
+| [QR Code Generator](./qr_code_generator) | Generates QR codes from input text                                                                                                                                                                                |
+| [Quiz Game](./quiz_game)               | Interactive quiz game with scoring                                                                                                                                                                                |
+| [Rock Paper Scissor](./rock_paper_scissor_game) | Classic Rock-Paper-Scissor game                                                                                                                                                                                   |
+| [Word Guess](./word_guess)             | Word guessing game similar to Hangman                                                                                                                                                                             |
+| [Timed Math Challenge](./timed_math_challenge) | A fast-paced Python game with 10 random math problems. Test your speed and accuracy while practicing arithmetic in a fun way.                                                                                     |
+| [PIG Dice Roll Game](./pig_dice_game) | A fun, turn-based Python game for 2 - 4 players based on the classic *Pig* dice game. Great for practicing loops, conditionals, and input handling in a competitive setting.                                      |
 | [Password Manager](./password_manager) | A beginner-friendly Python CLI tool to securely store and encrypt passwords using the cryptography library (Fernet). Features master password protection, adding and viewing passwords, and clean input handling. |
+| [Mad Libs Generator](./madlib_generator) | Fun console game that generates silly stories using user inputs and random templates. Features input validation and replayability. |
 
 
 ---
@@ -62,7 +72,7 @@ Each project is contained in its own folder with a dedicated `README.md` explain
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).  
-Feel free to use, modify, and share — just give credit where it’s due.
+Feel free to use, modify, and share - just give credit where it’s due.
 
 ---
 
