@@ -1,6 +1,6 @@
 # 🐷🎲 PIG Dice Roll Game (Python)
 
-A fun and beginner-friendly **multi-player dice game** based on the classic *Pig* game — implemented entirely in Python and run from the terminal.
+A fun and beginner-friendly **multi-player dice game** based on the classic *Pig* game - implemented entirely in Python and run from the terminal.
 
 ---
 
@@ -23,7 +23,7 @@ A fun and beginner-friendly **multi-player dice game** based on the classic *Pig
 - 🥇 Customizable **target score** (e.g., 20, 50, 100)
 - 💬 Friendly prompts and clear feedback
 - ✅ Input validation (player count, command options)
-- 🐍 Simple Python code — great for learning control flow and game loops
+- 🐍 Simple Python code - great for learning control flow and game loops
 
 ---
 
