@@ -1,8 +1,7 @@
-README FILE
-# 🪨📄✂️ Rock Paper Scissors — Python Game
+# 🪨📄✂️ Rock Paper Scissors - Python Game
 
 A classic **Rock Paper Scissors** game made with Python.
-Play against the computer, test your luck, and keep track of your score — all in the terminal with emoji-powered fun!
+Play against the computer, test your luck, and keep track of your score - all in the terminal with emoji-powered fun!
 
 ---
 
@@ -55,7 +54,7 @@ Play against the computer, test your luck, and keep track of your score — all 
 ---
 
 ## 📌 Sample Output
-
+```
 🎮 Welcome to the Rock 🪨 Paper 📄 Scissors ✂️ Game!!
 
 🎲 Wanna begin the game? (yes/no): yes
@@ -69,10 +68,10 @@ Choose Rock 🪨, Paper 📄 or Scissor ✂️: rock
 📊 Scoreboard:
 🧍 You: 0 | 💻 Computer: 1
 ------------------------------
-
+```
 ---
 
 ## 🙌 Credits
-Made with Python by Toshaksha — and powered by luck, logic, and emojis 😄🎉
+Made with Python by Toshaksha - and powered by luck, logic, and emojis 😄🎉
 
 🎯 Ready to play? Rock, paper, scissors... SHOOT!
