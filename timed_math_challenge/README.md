@@ -1,6 +1,6 @@
 # ⏱️ Timed Math Challenge (Python)
 
-A fun, fast-paced Python command-line game that challenges users with **10 random math problems**. See how quickly and accurately you can solve them — great for practicing arithmetic or building beginner Python skills!
+A fun, fast-paced Python command-line game that challenges users with **10 random math problems**. See how quickly and accurately you can solve them - great for practicing arithmetic or building beginner Python skills!
 
 ---
 
@@ -63,14 +63,14 @@ Python 3.x
 
 ## 🧠 What I Learned
 
-Using random to generate dynamic math problems
--Measuring execution time with time
--Input validation and exception handling
--Loops, conditionals, and reusable functions
+- Using random to generate dynamic math problems
+- Measuring execution time with time
+- Input validation and exception handling
+- Loops, conditionals, and reusable functions
 
 ---
 
 ## 🙌 Credits
-Created by [Toshaksha](https://github.com/Toshaksha) — powered by Python and brainpower 🧠⚡
+Created by [Toshaksha](https://github.com/Toshaksha) - powered by Python and brainpower 🧠⚡
 
 Challenge yourself. Train your brain. Beat your time!
