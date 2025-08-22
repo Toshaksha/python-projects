@@ -1,4 +1,3 @@
-README FILE
 # 📰 Fake News Headline Generator
 
 Get ready for a ridiculous ride into the world of **completely made-up news**! This Python project generates hilarious and absurd fake news headlines across a variety of themes like space, politics, sports, tech, and myths.
@@ -15,7 +14,7 @@ Get ready for a ridiculous ride into the world of **completely made-up news**! T
   - **Myths & Paranormal**
 - Randomly generated headlines that make zero sense (in the best way possible)
 - Fun emoji-filled user experience
-- Simple, readable Python code — great for beginners
+- Simple, readable Python code - great for beginners
 
 ---
 
@@ -73,5 +72,5 @@ Enter your choice of genre: tech&ai
 
 ---
 
-### 🤖 Credits
+## 🤖 Credits
 Made by a 💻 and 😂 by **Toshaksha**, powered by Python and pure nonsense.
