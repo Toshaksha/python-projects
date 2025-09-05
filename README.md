@@ -13,15 +13,6 @@ This repository contains a variety of small to medium-sized Python projects that
 
 ---
 
-🚀 Built Alongside My Python Learning Notes
-
-These projects complement my Python learning journey.
-
-🧠 Want to dive into the concepts and notes behind the code?  
-📘 Check out my companion notes repository: [Notes Repository](https://github.com/Toshaksha/notes-repo)
-
----
-
 ## 📁 Projects Included
 
 | Project Name                           | Description                                                                                                                                                                                                       |
